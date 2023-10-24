@@ -1,0 +1,621 @@
+
+h1{
+    position: absolute;
+    top: 0px;
+    height: 170px;
+    background-color:lemonchiffon;
+    font-size: 50px;
+    font-family: Arial;
+    padding-left: 5px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    border: solid;
+    width: 100%;
+}
+h2{
+    position: absolute;
+    top: 0px;
+    height: 170px;
+    background-color:lemonchiffon;
+    font-size: 50px;
+    font-family: Arial;
+    padding-left: 5px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    border: solid;
+    width: 100%;
+}
+h3{
+    position: absolute;
+    top: 0px;
+    height: 170px;
+    background-color:lemonchiffon;
+    font-size: 50px;
+    font-family: Arial;
+    padding-left: 5px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    border: solid;
+    width: 100%;
+}
+h4{
+    position: absolute;
+    top: 0px;
+    height: 170px;
+    background-color:lemonchiffon;
+    font-size: 50px;
+    font-family: Arial;
+    padding-left: 5px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    border: solid;
+    width: 100%;
+}
+h5{
+    position: absolute;
+    top: 0px;
+    height: 170px;
+    background-color:lemonchiffon;
+    font-size: 50px;
+    font-family: Arial;
+    padding-left: 5px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    border: solid;
+    width: 100%;
+}
+h6{
+    position: absolute;
+    top: 0px;
+    height: 170px;
+    background-color:lemonchiffon;
+    font-size: 50px;
+    font-family: Arial;
+    padding-left: 5px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    border: solid;
+    width: 100%;
+}
+h7{
+    position: absolute;
+    top: 0px;
+    height: 170px;
+    background-color:lemonchiffon;
+    font-size: 50px;
+    font-family: Arial;
+    padding-left: 5px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    border: solid;
+    width: 100%;
+}
+h8{
+    position: absolute;
+    top: 0px;
+    height: 170px;
+    background-color:lemonchiffon;
+    font-size: 50px;
+    font-family: Arial;
+    padding-left: 5px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    border: solid;
+    width: 100%;
+}
+h9{
+    font-size: 15px;
+    font-weight:bold ;
+    text-align:center ;
+    padding-left: 200px;
+}
+h10{
+    font-size: 15px;
+    font-weight:bold ;
+    text-align:center ;
+    padding-left: 300px;
+}    
+h11{
+    font-size: 15px;
+    font-weight:bold ;
+    text-align:center ;
+    padding-left: 650px;
+}
+h12{
+    font-size: 15px;
+    font-weight:bold ;
+}
+h13{
+    font-size: 15px;
+    font-weight:bold;
+}
+h14{
+    font-size: 15px;
+    font-weight:bold;
+}
+h15{
+    font-size: 15px;
+    font-weight:bold;
+}
+h16{
+    font-size: 15px;
+    font-weight:bold;
+
+}
+#nav{
+    position: absolute;
+    top: 180px;
+}
+#nav a{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    background-color:aliceblue;
+    border: solid;
+}
+#nav a:hover{
+    background-color: LightGrey;
+    color: black;
+}
+#nav a.active{
+    background-color:beige;
+    color: black;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+footer{
+    position: absolute;
+    top: 1500px;
+    width: 100%;
+
+}
+footer{
+    background-color: black;
+}
+.footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px ;
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+}
+.socialicons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color:white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialicons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+/*hovereffects on social media icons*/
+.socialicons a:hover{
+    background-color:#111;
+    transition: 0.5s;
+}
+.socialicons a:hover i{
+    color:white;
+    transition: 0.5s;
+}
+.footernav{
+    margin: 30px 0;
+}
+.footernav ul{
+    display:flex;
+    justify-content: center;
+}
+.footernav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footernav ul li a:hover{
+    opacity: 1;
+}
+.footerbottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerbottom p{
+    color: white;
+}
+#div1{
+
+    width: 640px;
+    height: 500px;
+    position:absolute;
+    left: 50px;
+    top: 265px;
+
+}
+#div2{
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    right:50px;
+    top: 265px;
+    border-radius: 10%;
+}
+#div3{
+    width: 640px;
+    height: 500px;
+    position:absolute;
+    left: 50px;
+    top: 800px;
+}
+
+#div4{
+    width: 600px;
+    height: 500px;
+    position:absolute;
+    right: 50px; 
+    top:800px;  
+}
+.image{
+    width: 600px;
+    height: 500px;
+    position:absolute;
+    right: 50px; 
+    top:800px;  
+} 
+#div5{
+    font-size: 15px;
+    position: absolute;
+    background-color: white;
+    color: black;
+    font-family: Arial;
+    width: 1345px;
+    height: 102px;
+    top: 265px;
+    left: 30px;
+    right: 30px;
+}
+  
+#division1{
+    font-size: 15px;
+    position: absolute;
+    background-color: rgb(210, 210, 228);
+    color: black;
+    font-family: Arial;
+    float: left;
+    width: 1345px;
+    height: 102px;
+    position:absolute;
+    left: 10px;
+    top: 265px;
+  
+}
+#division1{
+    box-sizing: border-box;
+    }
+    /* Set additional styling options for the columns*/
+    .column {
+    float: left;
+    width: 50%;
+    background-color:white;
+    }
+    
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    background-color: white;
+}
+#division2{
+    box-sizing: border-box;
+    top: 375px;  
+}
+#division2{
+    width: 1345px;
+    font-size: 15px;
+    position: absolute;
+    background-color: white;
+    color: black;
+    font-family: Arial;
+    float: left;
+    top: 130px;
+}
+.col{
+    width: 50%;
+    float: left;
+}
+.col > p {
+    width: 675px;
+    height: 500px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+#division3{
+    font-size: 15px;
+    position: absolute;
+    background-color: white;
+    color: black;
+    font-family: Arial;
+    float: left;
+    width: 1345px;
+    height: 102px;
+    position:absolute;
+    left: 10px;
+    top: 300px;
+  
+}
+#division3{
+    box-sizing: border-box;
+    }
+    /* Set additional styling options for the columns*/
+    .column {
+    float: left;
+    width: 50%;
+    background-color:white;
+    }
+    
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    background-color: white;
+}
+#division5{
+    width: 1500px;
+    height: 500px;
+    position:absolute;
+    left: 30px; 
+    top:350px;  
+}
+.image14{
+    width: 1200px;
+    height: 500px;
+    position:absolute;
+    left: 50px;
+    top:350px; 
+}
+#division4{
+    width: 1500px;
+    height: 500px;
+    position:absolute;
+    left: 30px; 
+    top:250px;  
+}
+#division6{
+   width: 1345px;
+    font-size: 15px;
+    position: absolute;
+    background-color: white;
+    color: black;
+    font-family: Arial;
+    float: left;
+    top: 275px;
+}
+.col{
+    width: 50%;
+    float: left;
+}
+.col > p {
+    width: 675px;
+    height: 500px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+.image16{
+    width: 640px;
+  height: 500px;
+    position:absolute;
+    left: 50px;
+    top:275px; 
+}
+#division7{
+    width: 1345px;
+    font-size: 15px;
+    position: absolute;
+    background-color: white;
+    color: black;
+    font-family: Arial;
+    top: 275px;
+}
+.col{
+    width: 50%;
+    float: left;
+}
+.col > p {
+    width: 675px;
+    height: 500px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+#division9{
+    font-size: 15px;
+    position: absolute;
+    background-color: white;
+    color: black;
+    font-family: Arial;
+    height: 102px;
+    position:absolute;
+    left: 10px;
+    top: 275px;
+  
+}
+#division10{
+    font-size: 15px;
+    position: absolute;
+    background-color: white;
+    color: black;
+    font-family: Arial;
+    position:absolute;
+    right: 10px;
+    top: 275px;
+  
+}
+#division9{
+    font-size: 15px;
+    position: absolute;
+    background-color: white;
+    color: black;
+    font-family: Arial;
+    position:absolute;
+    left: 10px;
+    top: 275px;
+  
+}
+#division11{
+    font-size: 15px;
+    position: absolute;
+    background-color: white;
+    color: black;
+    font-family: Arial;
+    position:absolute;
+    left: 50px;
+    top: 275px;
+    padding-left:px;
+    width: 640px;
+}
+#division12{
+    font-size: 15px;
+    position: absolute;
+    background-color: white;
+    color: black;
+    font-family: Arial;
+    position:absolute;
+    right: 50px;
+    top: 275px;
+    padding-right:px;
+    width: 640px;
+}
+#division13{
+    width: 640px;
+    height: 20px;
+    font-size: 15px;
+    font-family: Arial;
+    position: absolute;
+    top: 780px;
+    color: black;
+    text-align: left;
+    left: 50px;
+
+}
+#division14{
+    width: 640px;
+    height: 20px;
+    font-size: 15px;
+    font-family: Arial;
+    position: absolute;
+    top: 780px;
+    color: black;
+    text-align: left;
+    right: 50px;
+}
+#division15{
+    font-size: 15px;
+    position: absolute;
+    background-color:white;
+    color: black;
+    font-family: Arial;
+    height: 5px;
+    position:absolute;
+    left: 10px;
+    top: 1400px;
+  
+}
+
+#division16{
+    width: 640px;
+    height: 600px;
+    font-size: 15px;
+    position: absolute;
+    top: 850px;
+    color: black;
+    right: 50px;
+}
+#division17{
+    width: 640px;
+    height: 500px;
+    position: absolute;
+    background-color: white;
+    font-family: Arial;
+    left: 50px;
+    top: 850px;
+  
+}
+
+#division15{
+    font-size: 15px;
+    position: absolute;
+    background-color: white;
+    color: black;
+    font-family: Arial;
+    float: left;
+    width: 1345px;
+    height: 102px;
+    position:absolute;
+    left: 10px;
+    top: 1400px;
+  
+}
+#division15{
+    box-sizing: border-box;
+    }
+    /* Set additional styling options for the columns*/
+    .column {
+    float: left;
+    width: 50%;
+    background-color:white;
+    }
+    
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    background-color: white;
+}
+
+
